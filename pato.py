@@ -1,5 +1,5 @@
 import streamlit as st
-from g4f import Client
+from g4f.client import Client
 
 def chatear(modelo, mensaje):
     client = Client()
